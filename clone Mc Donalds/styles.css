@@ -1,0 +1,662 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+   background-color: white;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   position: fixed;
+   top: 0;
+   right: 0;
+   left: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    max-width: 1290px;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    height: 120px;
+    align-items: center;
+    flex-direction: row;
+    
+}
+.img--menu{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.img--menu img{
+    width: 108px;
+    height: 92px ;
+    margin-right: 20px;
+}
+.list--menu1 a{
+    text-decoration: none;
+    display: flex;
+    
+}
+.list--menu2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.list--menu1 ul{
+    display: flex; 
+}
+.menu .list--menu1 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    color:#969696;
+}
+.list--menu2 ul{
+    display: flex;   
+}
+.menu .list--menu2 ul li{
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    margin-right: 40px;
+    color: black;   
+    font-size: 20px;
+    border-bottom: 2px solid white ;
+    
+}
+.menu .list--menu2 ul li:hover{
+    
+    box-shadow: none;
+    border: none;
+    border-bottom: 2px solid #ffbc0d  ;
+    
+}
+.baixe--app{
+    align-items: center;
+    
+}
+.peça--Mequi{
+    align-items: center;
+}
+.list--menu1 .baixe--app a{
+    margin-left: 10px;
+    text-decoration: none;
+    color:#5f5f5f;
+    
+}
+.list--menu1 .baixe--app img{
+  width: 30px;
+  height: 30px ;
+  margin-left: 200px;
+}
+.list--menu1 .peça--Mequi a{
+    background-color: #ffbc0d;
+    text-decoration: none;
+    color: black;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.list--menu1 .peça--Mequi a:hover{
+    background-color: #a77b0e;
+}
+
+
+.banner{
+    background-image: url(img/area\ 1.jpg);
+    background-position: left;
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin-top: 120px;
+
+   
+}
+.banner--container{
+    display: flex;
+    justify-content: left;
+    width: 1120px;
+    margin-bottom: 100px;
+    position:static;
+
+}
+.banner--container a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 200px;
+    height: 40px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 1px 1px 10px #5f5f5f;
+}
+.banner--container a:hover{
+    background-color: #a77b0e;
+}
+.banner .container{
+    align-items: flex-end;
+}
+.area2{
+    display: flex;
+    justify-content: center;
+}
+.area2 .area2--box1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.area2 .area2--box2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    background-color: #a77b0e;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.area2 .area2--box1 .area2--box1--img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+}
+.area2 .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.area2 .resume{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.area2 .title .title--text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.area2 .resume .resume--text{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.area2 .prove{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.area2 .prove a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.area2 .prove a:hover{
+    background-color: #a77b0e;
+}
+.area2{
+    display: flex;
+    justify-content: center;
+}
+.area2 .area2--box1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.area2 .area2--box2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    background-color: #a77b0e;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.area2 .area2--box1 .area2--box1--img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+}
+.area2 .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.area2 .resume{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.area2 .title .title--text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.area2 .resume .resume--text{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.area2 .prove{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.area2 .prove a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.area2 .prove a:hover{
+    background-color: #a77b0e;
+}
+
+.area2{
+    display: flex;
+    justify-content: center;
+}
+.area2 .area2--box1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+.area2 .area2--box2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 520px;
+    height: 450px;
+    background-color: #a77b0e;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.area2 .area2--box1 .area2--box1--img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+}
+.area2 .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.area2 .resume{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.area2 .title .title--text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+.area2 .resume .resume--text{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.area2 .prove{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.area2 .prove a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.area2 .prove a:hover{
+    background-color: #a77b0e;
+}
+.area3{
+    display: flex;
+    justify-content: center;
+}
+.area3 .area3--box1{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 330px;
+    height: 500px;
+    margin-right: 50px;
+    margin-top: 50px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 2px 0px #a8a6a6;
+}
+.area3 .area3--box2{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 200px;
+    height: 500px;
+    background-color: #a77b0e;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+.area3 .area3--box1 .area3--box1--img img{
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius:  20px;
+}
+.area3 .title{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.area3 .resume{
+    display: flex;
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    align-items: center;
+    text-align: center;
+}
+.area3 .title .title--text{
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.area3 .resume .resume--text{
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.area3 .prove{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    
+    
+}
+.area3 .prove a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 40px;
+}
+.area3 .prove a:hover{
+    background-color: #a77b0e;
+}
+.area3 .prove3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    
+    
+}
+.area3 .prove3 a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.area3 .prove3 a:hover{
+    background-color: #a77b0e;
+}
+.area3 .prove1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    
+}
+.area3 .prove1 a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+.area3 .prove1 a:hover{
+    background-color: #a77b0e;
+}
+.area2 .prove0{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: flex-end;
+    
+}
+.area2 .prove0 a{
+    text-decoration: none;
+    background-color:#ffbc0d;
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #5f5f5f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 32px;
+}
+.area2 .prove0 a:hover{
+    background-color: #a77b0e;
+}
+footer{
+    display: flex;
+    justify-content: center
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.foot-cont1 .faixa{
+height: 150px;
+width: 100vw;
+background-color:#ffbc0d;
+display: flex;
+justify-content: center;
+}
+.foot-cont1 .faixa {
+align-items: center;
+display: flex;
+justify-content: center;
+}
+
+.foot-cont1 .faixa-img img{
+    width: 129px;
+    height: 129px;
+    align-items: center;
+}
+.foot-cont1 .faixa-txt{
+    margin-left: 30px;
+}
+.foot-cont1 .faixa .faixa-txt1{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #303030;
+    margin-bottom: 4px;
+}
+.foot-cont1 .faixa .faixa-txt2{     
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #464444;
+}
+.foot-cont1 .faixa .faixa-baixe a{
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+.foot-cont1 .faixa .faixa-baixe a:hover{
+    background-color: #e0d2d2 ;
+}
+.foot-cont1 .faixa .faixa-baixe{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 155px;
+    margin-right: 50px;
+}
+.foot-geral{
+    display: flex;
+    justify-content: center;
+}
+.foot-cont2{
+    display: flex;
+    justify-content: center;
+}
+.foot-cont2 .foot-cont-txt1 ,
+.foot-cont-txt2,
+.foot-cont-txt3{
+    margin-right: 70px;
+}
+.foot-cont-txt4{
+   margin-right: 425px;
+}
+.foot-cont2 .text-title{
+    margin-bottom: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.foot-cont2 .text-cont{
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: normal;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.foot-cont2 a{
+    text-decoration: none;
+    color: #303030;
+}
+.flex1-foot{
+    display: flex;
+    justify-content: flex-end;
+    width: 1160px;
+}
+.flex1-foot .img2-flex{
+    display: flex;
+   
+}
+.flex1-foot .img2-flex img{
+    width: 115px ;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.finalmente{
+    display: flex;
+    justify-content: flex-end;
+    width: 1250px;
+}
+.finalmente img{
+    width: 50px ;
+    height: 40px ;
+
+}
