@@ -2,4 +2,5 @@
 
 ## 💻 Projeto Clone de WebSite para praticar conhecimentos de HTML/CSS/JS. 
 
-## 🚶‍♂️🚶‍♂️ Primeiros Passos no aprendizado das tecnologias do Front-End. 🚶‍♂️🚶‍♂️
+
+🚶‍♂️🚶‍♂️ Primeiros Passos no aprendizado das tecnologias do Front-End. 🚶‍♂️🚶‍♂️
